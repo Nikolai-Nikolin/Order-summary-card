@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main-card {
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 25px 30px 2px hsl(228, 44%, 77%, 0.6);
+}
+
+.img-conteiner {
+    width: 450px;
+    height: 220px;
+    background-image: url("../images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 40px;
+}
+
+.description {
+    padding: 0 50px 0 50px;
+    margin-bottom: 25px;
+}
+
+.description > h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+}
+
+.description > p {
+    color: hsl(224, 23%, 55%);
+    line-height: 25px;
+}
+
+.music {
+    width: 350px;
+    padding: 25px 20px 25px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.music > img {
+    margin-right: 20px;
+}
+
+.music-desc > h4 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+}
+
+.music-desc > p {
+    color: hsl(224, 23%, 55%);
+}
+
+.music > a {
+    display: block;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 20px 2px hsl(228, 44%, 77%, 0.7);
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%, 0.7);
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: hsl(223, 47%, 23%);
+}
+
+input {
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 50px;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.5s;
+}
+
+input:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: hsl(245, 75%, 52%);
+}
+
+input:active {
+    color: hsl(223, 47%, 23%);
+}
